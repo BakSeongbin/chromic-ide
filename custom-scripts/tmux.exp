@@ -1,0 +1,11 @@
+#!/usr/bin/expect
+
+set timeout 10
+spawn tmux
+#sleep 1
+expect -timeout 2 "\[#$]"
+sleep 2
+expect -exact "^G"
+send "^B"
+interact
+#expect eof

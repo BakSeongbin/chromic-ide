@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo start script--------------------------
+/photo/fbbmp /mnt/usbdisk/a.bmp
+sleep 5
+/photo/fbbmp /mnt/usbdisk/b.bmp
+sleep 5
+/photo/fbbmp /mnt/usbdisk/c.bmp
+sleep 5
+/photo/fbbmp /mnt/usbdisk/c.bmp
+sleep 5
+echo end script----------------------------
