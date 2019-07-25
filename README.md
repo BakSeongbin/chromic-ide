@@ -1,4 +1,4 @@
-# chromic-ide
+# scripts for Ubuntu
 
 This project migrated to Gitlab 
 --------------------------------------------
